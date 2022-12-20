@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression">
+    <test name="UI Functional Test">
+        <parameter name="username" value="admin"></parameter>
+        <parameter name="password" value="admin"></parameter>
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="tests.com.LoginPageTest"></class>
+            <!--            <class name="tests.com.sentrifugo.WelcomeTest">-->
+            <!--                <methods>-->
+            <!--                    <exclude name="accountOptionsTest"></exclude>-->
+            <!--&lt;!&ndash;                    <include name="accountOptionsTest"></include>&ndash;&gt;-->
+            <!--                </methods>-->
+            <!--            </class>-->
+        </classes>
+    </test>
+</suite>
